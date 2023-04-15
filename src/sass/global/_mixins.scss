@@ -3,36 +3,34 @@
 //---------- import ----------
 @use "variables" as *;
 
-
 // ---------- MediaQuery ----------
 //768px以下（SPのみ）
 @mixin media-breakpoint-xs-only {
-  @media screen and (max-width:($md)) {
+  @media screen and (max-width: ($md)) {
     @content;
   }
 }
 //768px〜（TAB）
 @mixin media-breakpoint-md {
-  @media screen and (min-width:($md)) {
+  @media screen and (min-width: ($md)) {
     @content;
   }
 }
 //992px〜（PC）
 @mixin media-breakpoint-lg {
-  @media screen and (min-width:($lg)) {
+  @media screen and (min-width: ($lg)) {
     @content;
   }
 }
 //1200px〜（PC Oversize）
 @mixin media-breakpoint-xl {
-  @media screen and (min-width:($xl)) {
+  @media screen and (min-width: ($xl)) {
     @content;
   }
 }
 
-
 // ---------- full-width ----------
-@mixin full-width  {
+@mixin full-width {
   margin-left: calc(-50vw + 50%);
   margin-right: calc(-50vw + 50%);
 }

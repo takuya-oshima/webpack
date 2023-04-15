@@ -1,3 +1,3 @@
 export function animation() {
-  console.log('animation');
+  console.log("animation");
 }

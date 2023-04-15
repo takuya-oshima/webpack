@@ -8,7 +8,6 @@
 @use "foundation/reset";
 @use "foundation/base";
 
-
 //ベンダー（外部CSSをSCSSファイルとして読み込む）
 @use "vender/luminous.scss";
 @use "vender/slick.scss";
@@ -38,5 +37,4 @@
 div {
   font-size: 12px;
   background: url(../img/about/thumbnail.jpg) no-repeat;
-
 }

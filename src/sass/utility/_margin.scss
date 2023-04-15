@@ -387,7 +387,6 @@
 
 //768px〜（TAB）
 @include media-breakpoint-md {
-
   // ---------- margin-top ----------
   .mt-4 {
     margin-top: 4px !important;
@@ -758,10 +757,13 @@
 }
 
 //992px〜（PC）
-@include media-breakpoint-lg {}
+@include media-breakpoint-lg {
+}
 
 //1200px〜（PC Oversize）
-@include media-breakpoint-xl {}
+@include media-breakpoint-xl {
+}
 
 // ---------- IE11ハック ----------
-@media all and (-ms-high-contrast: none) {}
+@media all and (-ms-high-contrast: none) {
+}
