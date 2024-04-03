@@ -172,7 +172,7 @@ pugPaths.forEach(function(pugPath) {
     }),
   )
 });
-
+//EJSをHTMLに出力
 const ejsPaths = globule.find({
   src: ['src/ejs/**/*.ejs', '!src/ejs/**/_*.ejs']
 });

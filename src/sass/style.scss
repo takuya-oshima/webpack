@@ -9,8 +9,7 @@
 @use "foundation/base";
 
 //ベンダー（外部CSSをSCSSファイルとして読み込む）
-@use "vender/luminous.scss";
-@use "vender/slick.scss";
+//@use "vender/xxx.scss";
 
 //レイアウト（ページ全体の大枠レイアウト用のスタイル）
 @use "layout/wrap";
